@@ -1,0 +1,9 @@
+{
+  "BaseUrl": "http://simple-grocery-store-api.online",
+  "GetProductById":"Product/GetProductById/{id}",
+  "CreateProduct" : "Product/Create",
+  "ProductDetail" : "/products/{id}",
+  "CreateCart": "/carts",
+  "AddItemInCart" : "carts/{cartid}/items",
+  "UpdateCart": "http://simple-grocery-store-api.online/carts/{cartid}/items/{itemid}"
+}
